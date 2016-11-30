@@ -22,21 +22,21 @@
 18 verbose url raw csv
 19 verbose url resolving [ 'https://registry.npmjs.org/', './csv' ]
 20 verbose url resolved https://registry.npmjs.org/csv
-21 info trying registry request attempt 1 at 15:02:17
+21 info trying registry request attempt 1 at 15:41:57
 22 verbose etag "582fc552-f0a0"
 23 http GET https://registry.npmjs.org/csv
 24 http 304 https://registry.npmjs.org/csv
 25 silly registry.get cb [ 304,
-25 silly registry.get   { date: 'Wed, 23 Nov 2016 09:32:20 GMT',
+25 silly registry.get   { date: 'Wed, 23 Nov 2016 10:12:00 GMT',
 25 silly registry.get     via: '1.1 varnish',
 25 silly registry.get     'cache-control': 'max-age=300',
 25 silly registry.get     etag: '"582fc552-f0a0"',
-25 silly registry.get     age: '274',
+25 silly registry.get     age: '0',
 25 silly registry.get     connection: 'keep-alive',
-25 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
-25 silly registry.get     'x-cache': 'HIT',
-25 silly registry.get     'x-cache-hits': '2',
-25 silly registry.get     'x-timer': 'S1479893540.373678,VS0,VE0',
+25 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1479895920.898681,VS0,VE295',
 25 silly registry.get     vary: 'Accept-Encoding' } ]
 26 verbose etag csv from cache
 27 silly addNameRange number 2 { name: 'csv', range: '', hasData: true }
@@ -86,352 +86,213 @@
 30 verbose addNamed [ '1.1.0', '1.1.0' ]
 31 silly lockFile 3eaba38e-csv-1-1-0 csv@1.1.0
 32 verbose lock csv@1.1.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\3eaba38e-csv-1-1-0.lock
-33 silly lockFile c11abeda-stry-npmjs-org-csv-csv-1-1-0-tgz https://registry.npmjs.org/csv/-/csv-1.1.0.tgz
-34 verbose lock https://registry.npmjs.org/csv/-/csv-1.1.0.tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\c11abeda-stry-npmjs-org-csv-csv-1-1-0-tgz.lock
-35 verbose addRemoteTarball [ 'https://registry.npmjs.org/csv/-/csv-1.1.0.tgz',
-35 verbose addRemoteTarball   '0da30872c5cca486a4b5a0edbb52b2dbf6eb30ef' ]
-36 info retry fetch attempt 1 at 15:02:18
-37 verbose fetch to= C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\tmp.tgz
-38 http GET https://registry.npmjs.org/csv/-/csv-1.1.0.tgz
-39 http 200 https://registry.npmjs.org/csv/-/csv-1.1.0.tgz
-40 silly shasum updated bytes 40960
-41 silly shasum updated bytes 1560
-42 info shasum 0da30872c5cca486a4b5a0edbb52b2dbf6eb30ef
-42 info shasum C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\tmp.tgz
-43 verbose tar unpack C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\tmp.tgz
-44 silly lockFile 1a326d7f-8595-0-06228799605742097-package C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package
-45 verbose lock C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package C:\Users\Ramesh\AppData\Roaming\npm-cache\1a326d7f-8595-0-06228799605742097-package.lock
-46 silly lockFile dd302fe5-8595-0-06228799605742097-tmp-tgz C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\tmp.tgz
-47 verbose lock C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\tmp.tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\dd302fe5-8595-0-06228799605742097-tmp-tgz.lock
-48 silly gunzTarPerm modes [ '755', '644' ]
-49 silly gunzTarPerm extractEntry package.json
-50 silly gunzTarPerm extractEntry .npmignore
-51 silly gunzTarPerm extractEntry README.md
-52 silly gunzTarPerm extractEntry LICENSE
-53 silly gunzTarPerm extractEntry Makefile
-54 silly gunzTarPerm extractEntry doc/changes.md
-55 silly gunzTarPerm extractEntry doc/columns.md
-56 silly gunzTarPerm extractEntry doc/coverage.html
-57 silly gunzTarPerm extractEntry doc/from.md
-58 silly gunzTarPerm extractEntry doc/index.md
-59 silly gunzTarPerm extractEntry doc/parser.md
-60 silly gunzTarPerm extractEntry doc/stringifier.md
-61 silly gunzTarPerm extractEntry doc/to.md
-62 silly gunzTarPerm extractEntry doc/transformer.md
-63 silly gunzTarPerm extractEntry lib/index.js
-64 silly gunzTarPerm extractEntry samples/callback.js
-65 silly gunzTarPerm extractEntry samples/pipe.js
-66 silly gunzTarPerm extractEntry samples/stream.js
-67 silly gunzTarPerm extractEntry .travis.yml
-68 silly gunzTarPerm extractEntry src/index.coffee.md
-69 verbose read json C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package\package.json
-70 silly lockFile 1a326d7f-8595-0-06228799605742097-package C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package
-71 silly lockFile 1a326d7f-8595-0-06228799605742097-package C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package
-72 silly lockFile dd302fe5-8595-0-06228799605742097-tmp-tgz C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\tmp.tgz
-73 silly lockFile dd302fe5-8595-0-06228799605742097-tmp-tgz C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\tmp.tgz
-74 verbose from cache C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package\package.json
-75 verbose tar pack [ 'C:\\Users\\Ramesh\\AppData\\Roaming\\npm-cache\\csv\\1.1.0\\package.tgz',
-75 verbose tar pack   'C:\\Users\\Ramesh\\AppData\\Local\\Temp\\npm-4484\\1479893538595-0.06228799605742097\\package' ]
-76 verbose tarball C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-77 verbose folder C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package
-78 silly lockFile 1a326d7f-8595-0-06228799605742097-package C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package
-79 verbose lock C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package C:\Users\Ramesh\AppData\Roaming\npm-cache\1a326d7f-8595-0-06228799605742097-package.lock
-80 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-81 verbose lock C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\36cd6fdc--npm-cache-csv-1-1-0-package-tgz.lock
-82 silly lockFile 1a326d7f-8595-0-06228799605742097-package C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package
-83 silly lockFile 1a326d7f-8595-0-06228799605742097-package C:\Users\Ramesh\AppData\Local\Temp\npm-4484\1479893538595-0.06228799605742097\package
-84 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-85 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-86 silly lockFile aeb5369b-ming-npm-cache-csv-1-1-0-package C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package
-87 verbose lock C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package C:\Users\Ramesh\AppData\Roaming\npm-cache\aeb5369b-ming-npm-cache-csv-1-1-0-package.lock
-88 silly lockFile aeb5369b-ming-npm-cache-csv-1-1-0-package C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package
-89 silly lockFile aeb5369b-ming-npm-cache-csv-1-1-0-package C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package
-90 verbose tar unpack C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-91 silly lockFile aeb5369b-ming-npm-cache-csv-1-1-0-package C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package
-92 verbose lock C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package C:\Users\Ramesh\AppData\Roaming\npm-cache\aeb5369b-ming-npm-cache-csv-1-1-0-package.lock
-93 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-94 verbose lock C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\36cd6fdc--npm-cache-csv-1-1-0-package-tgz.lock
-95 silly gunzTarPerm modes [ '755', '644' ]
-96 silly gunzTarPerm extractEntry package.json
-97 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-98 silly gunzTarPerm extractEntry README.md
-99 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
-100 silly gunzTarPerm extractEntry LICENSE
-101 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
-102 silly gunzTarPerm extractEntry .travis.yml
-103 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
-104 silly gunzTarPerm extractEntry doc/changes.md
-105 silly gunzTarPerm modified mode [ 'doc/changes.md', 438, 420 ]
-106 silly gunzTarPerm extractEntry doc/columns.md
-107 silly gunzTarPerm modified mode [ 'doc/columns.md', 438, 420 ]
-108 silly gunzTarPerm extractEntry doc/coverage.html
-109 silly gunzTarPerm modified mode [ 'doc/coverage.html', 438, 420 ]
-110 silly gunzTarPerm extractEntry doc/from.md
-111 silly gunzTarPerm modified mode [ 'doc/from.md', 438, 420 ]
-112 silly gunzTarPerm extractEntry doc/index.md
-113 silly gunzTarPerm modified mode [ 'doc/index.md', 438, 420 ]
-114 silly gunzTarPerm extractEntry doc/parser.md
-115 silly gunzTarPerm modified mode [ 'doc/parser.md', 438, 420 ]
-116 silly gunzTarPerm extractEntry doc/stringifier.md
-117 silly gunzTarPerm modified mode [ 'doc/stringifier.md', 438, 420 ]
-118 silly gunzTarPerm extractEntry doc/to.md
-119 silly gunzTarPerm modified mode [ 'doc/to.md', 438, 420 ]
-120 silly gunzTarPerm extractEntry doc/transformer.md
-121 silly gunzTarPerm modified mode [ 'doc/transformer.md', 438, 420 ]
-122 silly gunzTarPerm extractEntry lib/index.js
-123 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
-124 silly gunzTarPerm extractEntry Makefile
-125 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
-126 silly gunzTarPerm extractEntry samples/callback.js
-127 silly gunzTarPerm modified mode [ 'samples/callback.js', 438, 420 ]
-128 silly gunzTarPerm extractEntry samples/pipe.js
-129 silly gunzTarPerm modified mode [ 'samples/pipe.js', 438, 420 ]
-130 silly gunzTarPerm extractEntry samples/stream.js
-131 silly gunzTarPerm modified mode [ 'samples/stream.js', 438, 420 ]
-132 silly gunzTarPerm extractEntry src/index.coffee.md
-133 silly gunzTarPerm modified mode [ 'src/index.coffee.md', 438, 420 ]
-134 verbose read json C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package\package.json
-135 silly lockFile aeb5369b-ming-npm-cache-csv-1-1-0-package C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package
-136 silly lockFile aeb5369b-ming-npm-cache-csv-1-1-0-package C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package
-137 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-138 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-139 silly shasum updated bytes 40960
-140 silly shasum updated bytes 1356
-141 info shasum 4c04ecbc4bfc1dffc982ecb1b5c15589b2052493
-141 info shasum C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-142 verbose from cache C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package\package.json
-143 verbose chmod C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz 644
-144 silly chown skipping for windows C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-145 silly lockFile c11abeda-stry-npmjs-org-csv-csv-1-1-0-tgz https://registry.npmjs.org/csv/-/csv-1.1.0.tgz
-146 silly lockFile c11abeda-stry-npmjs-org-csv-csv-1-1-0-tgz https://registry.npmjs.org/csv/-/csv-1.1.0.tgz
-147 silly lockFile 3eaba38e-csv-1-1-0 csv@1.1.0
-148 silly lockFile 3eaba38e-csv-1-1-0 csv@1.1.0
-149 silly lockFile 34c7fd74-csv csv@
-150 silly lockFile 34c7fd74-csv csv@
-151 silly resolved [ { name: 'csv',
-151 silly resolved     version: '1.1.0',
-151 silly resolved     description: 'CSV parser with simple api, full of options and tested against large datasets.',
-151 silly resolved     keywords:
-151 silly resolved      [ 'node',
-151 silly resolved        'csv',
-151 silly resolved        'tsv',
-151 silly resolved        'parser',
-151 silly resolved        'parse',
-151 silly resolved        'stringifier',
-151 silly resolved        'stringify' ],
-151 silly resolved     homepage: 'http://www.adaltas.com/projects/node-csv/',
-151 silly resolved     bugs: 'https://github.com/wdavidw/node-csv/issues',
-151 silly resolved     author:
-151 silly resolved      { name: 'David Worms',
-151 silly resolved        email: 'david@adaltas.com',
-151 silly resolved        url: 'http://www.adaltas.com' },
-151 silly resolved     contributors: [ [Object] ],
-151 silly resolved     license: 'BSD-3-Clause',
-151 silly resolved     engines: { node: '>= 0.1.90' },
-151 silly resolved     main: './lib',
-151 silly resolved     repository: { type: 'git', url: 'https://github.com/wdavidw/node-csv.git' },
-151 silly resolved     dependencies:
-151 silly resolved      { 'csv-generate': '^1.0.0',
-151 silly resolved        'csv-parse': '^1.1.0',
-151 silly resolved        'stream-transform': '^0.1.0',
-151 silly resolved        'csv-stringify': '^1.0.0' },
-151 silly resolved     devDependencies: {},
-151 silly resolved     optionalDependencies: {},
-151 silly resolved     scripts: {},
-151 silly resolved     readme: '\n<pre>\n     _   _           _        _____  _______      __\n    | \\ | |         | |      / ____|/ ____\\ \\    / /\n    |  \\| | ___   __| | ___ | |    | (___  \\ \\  / /\n    | . ` |/ _ \\ / _` |/ _ \\| |     \\___ \\  \\ \\/ /\n    | |\\  | (_) | (_| |  __/| |____ ____) |  \\  /\n    |_| \\_|\\___/ \\__,_|\\___| \\_____|_____/    \\/     New BSD License\n\n</pre>\n\nThis project provides CSV generation, parsing, transformation and serialization\nfor Node.js.\n\nIt has been tested and used by a large community over the years and should be\nconsidered reliable. It provides every option you would expect from an advanced\nCSV parser and stringifier.\n\n[![NPM](https://nodei.co/npm/csv.png?stars&downloads)](https://nodei.co/npm/csv/) [![NPM](https://nodei.co/npm-dl/csv.png)](https://nodei.co/npm/csv/)\n\nThe `csv` package is itself split into 4 packages:\n\n*   [`csv-generate`](https://github.com/wdavidw/node-csv-generate),\n    a flexible generator of CSV string and Javascript objects. \n    [![Build Status](https://secure.travis-ci.org/wdavidw/node-csv-generate.svg?branch=master)][travis-csv-generate]\n*   [`csv-parse`](https://github.com/wdavidw/node-csv-parse),\n    a parser converting CSV text into arrays or objects. \n    [![Build Status](https://secure.travis-ci.org/wdavidw/node-csv-parse.svg?branch=master)][travis-csv-parse]\n*   [`stream-transform`](https://github.com/wdavidw/node-stream-transform),\n    a transformation framework.\n    [![Build Status](https://secure.travis-ci.org/wdavidw/node-stream-transform.svg?branch=master)][travis-stream-transform]\n*   [`csv-stringify`](https://github.com/wdavidw/node-csv-stringify), \n    a stringifier converting records into a CSV text. \n    [![Build Status](https://secure.travis-ci.org/wdavidw/node-csv-stringify.svg?branch=master)][travis-csv-stringify]\n\n## Documentation\n\nThe full documentation for the current version 0.4 is available [here][new_doc] while the\nprevious documentation is still available [here][old_doc].\n\n## Usage\n\nInstallation command is `npm install csv`.\n\nEach package is fully compatible with the stream 2 and 3 specifications.\nAlso, a simple callback-based API is always provided for convenience.\n\n### Callback example\n\nExecute this script with the command `node samples/callback.js`.\n\n```javascript\nvar csv = require(\'csv\');\n\ncsv.generate({seed: 1, columns: 2, length: 20}, function(err, data){\n  csv.parse(data, function(err, data){\n    csv.transform(data, function(data){\n      return data.map(function(value){return value.toUpperCase()});\n    }, function(err, data){\n      csv.stringify(data, function(err, data){\n        process.stdout.write(data);\n      });\n    });\n  });\n});\n```\n\n### Stream example\n\nExecute this script with the command `node samples/stream.js`.\n\n```javascript\nvar csv = require(\'csv\');\n\nvar generator = csv.generate({seed: 1, columns: 2, length: 20});\nvar parser = csv.parse();\nvar transformer = csv.transform(function(data){\n  return data.map(function(value){return value.toUpperCase()});\n});\nvar stringifier = csv.stringify();\n\ngenerator.on(\'readable\', function(){\n  while(data = generator.read()){\n    parser.write(data);\n  }\n});\n\nparser.on(\'readable\', function(){\n  while(data = parser.read()){\n    transformer.write(data);\n  }\n});\n\ntransformer.on(\'readable\', function(){\n  while(data = transformer.read()){\n    stringifier.write(data);\n  }\n});\n\nstringifier.on(\'readable\', function(){\n  while(data = stringifier.read()){\n    process.stdout.write(data);\n  }\n});\n```\n\n### Pipe example\n\nExecute this script with the command `node samples/pipe.js`.\n\n```javascript\nvar csv = require(\'csv\');\n\ncsv.generate({seed: 1, columns: 2, length: 20})\n  .pipe(csv.parse())\n  .pipe(csv.transform(function(record){\n     return record.map(function(value){\n       return value.toUpperCase()\n     });\n  }))\n  .pipe(csv.stringify ())\n  .pipe(process.stdout);\n```\n\nDevelopment\n-----------\n\nThis parent project doesn\'t have tests itself but instead delegates the\ntests to its child projects.\n\nRead the documentation of the child projects for additional information.\n\nRelated projects\n----------------\n\n*   Pavel Kolesnikov "ya-csv": <http://github.com/koles/ya-csv>\n*   Chris Williams "node-csv": <http://github.com/voodootikigod/node-csv>\n\n[travis]: https://travis-ci.org/\n[travis-csv-generate]: http://travis-ci.org/wdavidw/node-csv-generate\n[travis-csv-parse]: http://travis-ci.org/wdavidw/node-csv-parse\n[travis-stream-transform]: http://travis-ci.org/wdavidw/node-stream-transform\n[travis-csv-stringify]: http://travis-ci.org/wdavidw/node-csv-stringify\n[new_doc]: http://csv.adaltas.com\n[old_doc]: http://csv.adaltas.com/legacy/\n',
-151 silly resolved     readmeFilename: 'README.md',
-151 silly resolved     _id: 'csv@1.1.0',
-151 silly resolved     dist: { shasum: '4c04ecbc4bfc1dffc982ecb1b5c15589b2052493' },
-151 silly resolved     _from: 'csv@',
-151 silly resolved     _resolved: 'https://registry.npmjs.org/csv/-/csv-1.1.0.tgz' } ]
-152 info install csv@1.1.0 into D:\drupalonsteroids
-153 info installOne csv@1.1.0
-154 verbose from cache C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package\package.json
-155 info D:\drupalonsteroids\node_modules\csv unbuild
-156 verbose read json D:\drupalonsteroids\node_modules\csv\package.json
-157 verbose tar unpack C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-158 silly lockFile 8db59fab-rupalonsteroids-node-modules-csv D:\drupalonsteroids\node_modules\csv
-159 verbose lock D:\drupalonsteroids\node_modules\csv C:\Users\Ramesh\AppData\Roaming\npm-cache\8db59fab-rupalonsteroids-node-modules-csv.lock
-160 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-161 verbose lock C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\36cd6fdc--npm-cache-csv-1-1-0-package-tgz.lock
-162 silly gunzTarPerm modes [ '755', '644' ]
-163 silly gunzTarPerm extractEntry package.json
-164 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-165 silly gunzTarPerm extractEntry README.md
-166 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
-167 silly gunzTarPerm extractEntry LICENSE
-168 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
-169 silly gunzTarPerm extractEntry .travis.yml
-170 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
-171 silly gunzTarPerm extractEntry doc/changes.md
-172 silly gunzTarPerm modified mode [ 'doc/changes.md', 438, 420 ]
-173 silly gunzTarPerm extractEntry doc/columns.md
-174 silly gunzTarPerm modified mode [ 'doc/columns.md', 438, 420 ]
-175 silly gunzTarPerm extractEntry doc/coverage.html
-176 silly gunzTarPerm modified mode [ 'doc/coverage.html', 438, 420 ]
-177 silly gunzTarPerm extractEntry doc/from.md
-178 silly gunzTarPerm modified mode [ 'doc/from.md', 438, 420 ]
-179 silly gunzTarPerm extractEntry doc/index.md
-180 silly gunzTarPerm modified mode [ 'doc/index.md', 438, 420 ]
-181 silly gunzTarPerm extractEntry doc/parser.md
-182 silly gunzTarPerm modified mode [ 'doc/parser.md', 438, 420 ]
-183 silly gunzTarPerm extractEntry doc/stringifier.md
-184 silly gunzTarPerm modified mode [ 'doc/stringifier.md', 438, 420 ]
-185 silly gunzTarPerm extractEntry doc/to.md
-186 silly gunzTarPerm modified mode [ 'doc/to.md', 438, 420 ]
-187 silly gunzTarPerm extractEntry doc/transformer.md
-188 silly gunzTarPerm modified mode [ 'doc/transformer.md', 438, 420 ]
-189 silly gunzTarPerm extractEntry lib/index.js
-190 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
-191 silly gunzTarPerm extractEntry Makefile
-192 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
-193 silly gunzTarPerm extractEntry samples/callback.js
-194 silly gunzTarPerm modified mode [ 'samples/callback.js', 438, 420 ]
-195 silly gunzTarPerm extractEntry samples/pipe.js
-196 silly gunzTarPerm modified mode [ 'samples/pipe.js', 438, 420 ]
-197 silly gunzTarPerm extractEntry samples/stream.js
-198 silly gunzTarPerm modified mode [ 'samples/stream.js', 438, 420 ]
-199 silly gunzTarPerm extractEntry src/index.coffee.md
-200 silly gunzTarPerm modified mode [ 'src/index.coffee.md', 438, 420 ]
-201 verbose read json D:\drupalonsteroids\node_modules\csv\package.json
-202 silly lockFile 8db59fab-rupalonsteroids-node-modules-csv D:\drupalonsteroids\node_modules\csv
-203 silly lockFile 8db59fab-rupalonsteroids-node-modules-csv D:\drupalonsteroids\node_modules\csv
-204 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-205 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
-206 info preinstall csv@1.1.0
-207 verbose from cache D:\drupalonsteroids\node_modules\csv\package.json
-208 verbose readDependencies using package.json deps
-209 verbose from cache D:\drupalonsteroids\node_modules\csv\package.json
-210 verbose readDependencies using package.json deps
-211 verbose cache add [ 'csv-generate@^1.0.0', null ]
-212 verbose cache add name=undefined spec="csv-generate@^1.0.0" args=["csv-generate@^1.0.0",null]
-213 verbose parsed url { pathname: 'csv-generate@^1.0.0',
-213 verbose parsed url   path: 'csv-generate@^1.0.0',
-213 verbose parsed url   href: 'csv-generate@^1.0.0' }
-214 verbose cache add name="csv-generate" spec="^1.0.0" args=["csv-generate","^1.0.0"]
-215 verbose parsed url { pathname: '^1.0.0', path: '^1.0.0', href: '^1.0.0' }
-216 verbose addNamed [ 'csv-generate', '^1.0.0' ]
-217 verbose addNamed [ null, null ]
-218 silly lockFile 2ce8062f-csv-generate-1-0-0 csv-generate@^1.0.0
-219 verbose lock csv-generate@^1.0.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\2ce8062f-csv-generate-1-0-0.lock
-220 verbose cache add [ 'csv-parse@^1.1.0', null ]
-221 verbose cache add name=undefined spec="csv-parse@^1.1.0" args=["csv-parse@^1.1.0",null]
-222 verbose parsed url { pathname: 'csv-parse@^1.1.0',
-222 verbose parsed url   path: 'csv-parse@^1.1.0',
-222 verbose parsed url   href: 'csv-parse@^1.1.0' }
-223 verbose cache add name="csv-parse" spec="^1.1.0" args=["csv-parse","^1.1.0"]
-224 verbose parsed url { pathname: '^1.1.0', path: '^1.1.0', href: '^1.1.0' }
-225 verbose addNamed [ 'csv-parse', '^1.1.0' ]
-226 verbose addNamed [ null, null ]
-227 silly lockFile 103141e9-csv-parse-1-1-0 csv-parse@^1.1.0
-228 verbose lock csv-parse@^1.1.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\103141e9-csv-parse-1-1-0.lock
-229 verbose cache add [ 'stream-transform@^0.1.0', null ]
-230 verbose cache add name=undefined spec="stream-transform@^0.1.0" args=["stream-transform@^0.1.0",null]
-231 verbose parsed url { pathname: 'stream-transform@^0.1.0',
-231 verbose parsed url   path: 'stream-transform@^0.1.0',
-231 verbose parsed url   href: 'stream-transform@^0.1.0' }
-232 verbose cache add name="stream-transform" spec="^0.1.0" args=["stream-transform","^0.1.0"]
-233 verbose parsed url { pathname: '^0.1.0', path: '^0.1.0', href: '^0.1.0' }
-234 verbose addNamed [ 'stream-transform', '^0.1.0' ]
-235 verbose addNamed [ null, null ]
-236 silly lockFile 634305ca-stream-transform-0-1-0 stream-transform@^0.1.0
-237 verbose lock stream-transform@^0.1.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\634305ca-stream-transform-0-1-0.lock
-238 verbose cache add [ 'csv-stringify@^1.0.0', null ]
-239 verbose cache add name=undefined spec="csv-stringify@^1.0.0" args=["csv-stringify@^1.0.0",null]
-240 verbose parsed url { pathname: 'csv-stringify@^1.0.0',
-240 verbose parsed url   path: 'csv-stringify@^1.0.0',
-240 verbose parsed url   href: 'csv-stringify@^1.0.0' }
-241 verbose cache add name="csv-stringify" spec="^1.0.0" args=["csv-stringify","^1.0.0"]
-242 verbose parsed url { pathname: '^1.0.0', path: '^1.0.0', href: '^1.0.0' }
-243 verbose addNamed [ 'csv-stringify', '^1.0.0' ]
-244 verbose addNamed [ null, null ]
-245 silly lockFile feb13d96-csv-stringify-1-0-0 csv-stringify@^1.0.0
-246 verbose lock csv-stringify@^1.0.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\feb13d96-csv-stringify-1-0-0.lock
-247 info addNameTag [ 'csv-generate', '^1.0.0' ]
-248 info addNameTag [ 'csv-parse', '^1.1.0' ]
-249 info addNameTag [ 'stream-transform', '^0.1.0' ]
-250 info addNameTag [ 'csv-stringify', '^1.0.0' ]
-251 verbose url raw csv-generate
-252 verbose url resolving [ 'https://registry.npmjs.org/', './csv-generate' ]
-253 verbose url resolved https://registry.npmjs.org/csv-generate
-254 info trying registry request attempt 1 at 15:02:20
-255 http GET https://registry.npmjs.org/csv-generate
-256 verbose url raw csv-parse
-257 verbose url resolving [ 'https://registry.npmjs.org/', './csv-parse' ]
-258 verbose url resolved https://registry.npmjs.org/csv-parse
-259 info trying registry request attempt 1 at 15:02:20
-260 http GET https://registry.npmjs.org/csv-parse
-261 verbose url raw stream-transform
-262 verbose url resolving [ 'https://registry.npmjs.org/', './stream-transform' ]
-263 verbose url resolved https://registry.npmjs.org/stream-transform
-264 info trying registry request attempt 1 at 15:02:20
-265 http GET https://registry.npmjs.org/stream-transform
-266 verbose url raw csv-stringify
-267 verbose url resolving [ 'https://registry.npmjs.org/', './csv-stringify' ]
-268 verbose url resolved https://registry.npmjs.org/csv-stringify
-269 info trying registry request attempt 1 at 15:02:20
-270 http GET https://registry.npmjs.org/csv-stringify
-271 http 200 https://registry.npmjs.org/csv-generate
-272 silly registry.get cb [ 200,
-272 silly registry.get   { server: 'nginx/1.10.1',
-272 silly registry.get     'content-type': 'application/json',
-272 silly registry.get     'last-modified': 'Wed, 07 Oct 2015 14:26:59 GMT',
-272 silly registry.get     etag: '"56152bb3-2b43"',
-272 silly registry.get     'cache-control': 'max-age=300',
-272 silly registry.get     'content-length': '11075',
-272 silly registry.get     'accept-ranges': 'bytes',
-272 silly registry.get     date: 'Wed, 23 Nov 2016 09:32:22 GMT',
-272 silly registry.get     via: '1.1 varnish',
-272 silly registry.get     age: '243',
-272 silly registry.get     connection: 'keep-alive',
-272 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
-272 silly registry.get     'x-cache': 'HIT',
-272 silly registry.get     'x-cache-hits': '1',
-272 silly registry.get     'x-timer': 'S1479893542.631018,VS0,VE0',
-272 silly registry.get     vary: 'Accept-Encoding' } ]
-273 silly lockFile 2ce8062f-csv-generate-1-0-0 csv-generate@^1.0.0
-274 silly lockFile 2ce8062f-csv-generate-1-0-0 csv-generate@^1.0.0
-275 verbose about to build D:\drupalonsteroids\node_modules\csv
-276 info D:\drupalonsteroids\node_modules\csv unbuild
-277 verbose from cache D:\drupalonsteroids\node_modules\csv\package.json
-278 info preuninstall csv@1.1.0
-279 info uninstall csv@1.1.0
-280 verbose true,D:\drupalonsteroids\node_modules,D:\drupalonsteroids\node_modules unbuild csv@1.1.0
-281 info postuninstall csv@1.1.0
-282 http 200 https://registry.npmjs.org/stream-transform
-283 silly registry.get cb [ 200,
-283 silly registry.get   { server: 'nginx/1.10.1',
-283 silly registry.get     'content-type': 'application/json',
-283 silly registry.get     'last-modified': 'Tue, 20 Oct 2015 20:40:06 GMT',
-283 silly registry.get     etag: '"5626a6a6-2fa9"',
-283 silly registry.get     'cache-control': 'max-age=300',
-283 silly registry.get     'content-length': '12201',
-283 silly registry.get     'accept-ranges': 'bytes',
-283 silly registry.get     date: 'Wed, 23 Nov 2016 09:32:22 GMT',
-283 silly registry.get     via: '1.1 varnish',
-283 silly registry.get     age: '243',
-283 silly registry.get     connection: 'keep-alive',
-283 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
-283 silly registry.get     'x-cache': 'HIT',
-283 silly registry.get     'x-cache-hits': '1',
-283 silly registry.get     'x-timer': 'S1479893542.658857,VS0,VE0',
-283 silly registry.get     vary: 'Accept-Encoding' } ]
-284 silly lockFile 634305ca-stream-transform-0-1-0 stream-transform@^0.1.0
-285 silly lockFile 634305ca-stream-transform-0-1-0 stream-transform@^0.1.0
-286 error Error: No compatible version found: csv-generate@'^1.0.0'
-286 error Valid install targets:
-286 error ["0.0.0","0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","1.0.0"]
-286 error     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:682:10)
-286 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:597:10
-286 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
-286 error     at Object.oncomplete (fs.js:297:15)
-287 error If you need help, you may report this log at:
-287 error     <http://github.com/isaacs/npm/issues>
-287 error or email it to:
-287 error     <npm-@googlegroups.com>
-288 error System Windows_NT 6.1.7601
-289 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "csv"
-290 error cwd D:\drupalonsteroids
-291 error node -v v0.8.22
-292 error npm -v 1.2.14
-293 verbose exit [ 1, true ]
+33 verbose read json C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package\package.json
+34 silly lockFile 3eaba38e-csv-1-1-0 csv@1.1.0
+35 silly lockFile 3eaba38e-csv-1-1-0 csv@1.1.0
+36 silly lockFile 34c7fd74-csv csv@
+37 silly lockFile 34c7fd74-csv csv@
+38 silly resolved [ { name: 'csv',
+38 silly resolved     version: '1.1.0',
+38 silly resolved     description: 'CSV parser with simple api, full of options and tested against large datasets.',
+38 silly resolved     keywords:
+38 silly resolved      [ 'node',
+38 silly resolved        'csv',
+38 silly resolved        'tsv',
+38 silly resolved        'parser',
+38 silly resolved        'parse',
+38 silly resolved        'stringifier',
+38 silly resolved        'stringify' ],
+38 silly resolved     homepage: 'http://www.adaltas.com/projects/node-csv/',
+38 silly resolved     bugs: 'https://github.com/wdavidw/node-csv/issues',
+38 silly resolved     author:
+38 silly resolved      { name: 'David Worms',
+38 silly resolved        email: 'david@adaltas.com',
+38 silly resolved        url: 'http://www.adaltas.com' },
+38 silly resolved     contributors: [ [Object] ],
+38 silly resolved     license: 'BSD-3-Clause',
+38 silly resolved     engines: { node: '>= 0.1.90' },
+38 silly resolved     main: './lib',
+38 silly resolved     repository: { type: 'git', url: 'https://github.com/wdavidw/node-csv.git' },
+38 silly resolved     dependencies:
+38 silly resolved      { 'csv-generate': '^1.0.0',
+38 silly resolved        'csv-parse': '^1.1.0',
+38 silly resolved        'stream-transform': '^0.1.0',
+38 silly resolved        'csv-stringify': '^1.0.0' },
+38 silly resolved     devDependencies: {},
+38 silly resolved     optionalDependencies: {},
+38 silly resolved     scripts: {},
+38 silly resolved     readme: '\n<pre>\n     _   _           _        _____  _______      __\n    | \\ | |         | |      / ____|/ ____\\ \\    / /\n    |  \\| | ___   __| | ___ | |    | (___  \\ \\  / /\n    | . ` |/ _ \\ / _` |/ _ \\| |     \\___ \\  \\ \\/ /\n    | |\\  | (_) | (_| |  __/| |____ ____) |  \\  /\n    |_| \\_|\\___/ \\__,_|\\___| \\_____|_____/    \\/     New BSD License\n\n</pre>\n\nThis project provides CSV generation, parsing, transformation and serialization\nfor Node.js.\n\nIt has been tested and used by a large community over the years and should be\nconsidered reliable. It provides every option you would expect from an advanced\nCSV parser and stringifier.\n\n[![NPM](https://nodei.co/npm/csv.png?stars&downloads)](https://nodei.co/npm/csv/) [![NPM](https://nodei.co/npm-dl/csv.png)](https://nodei.co/npm/csv/)\n\nThe `csv` package is itself split into 4 packages:\n\n*   [`csv-generate`](https://github.com/wdavidw/node-csv-generate),\n    a flexible generator of CSV string and Javascript objects. \n    [![Build Status](https://secure.travis-ci.org/wdavidw/node-csv-generate.svg?branch=master)][travis-csv-generate]\n*   [`csv-parse`](https://github.com/wdavidw/node-csv-parse),\n    a parser converting CSV text into arrays or objects. \n    [![Build Status](https://secure.travis-ci.org/wdavidw/node-csv-parse.svg?branch=master)][travis-csv-parse]\n*   [`stream-transform`](https://github.com/wdavidw/node-stream-transform),\n    a transformation framework.\n    [![Build Status](https://secure.travis-ci.org/wdavidw/node-stream-transform.svg?branch=master)][travis-stream-transform]\n*   [`csv-stringify`](https://github.com/wdavidw/node-csv-stringify), \n    a stringifier converting records into a CSV text. \n    [![Build Status](https://secure.travis-ci.org/wdavidw/node-csv-stringify.svg?branch=master)][travis-csv-stringify]\n\n## Documentation\n\nThe full documentation for the current version 0.4 is available [here][new_doc] while the\nprevious documentation is still available [here][old_doc].\n\n## Usage\n\nInstallation command is `npm install csv`.\n\nEach package is fully compatible with the stream 2 and 3 specifications.\nAlso, a simple callback-based API is always provided for convenience.\n\n### Callback example\n\nExecute this script with the command `node samples/callback.js`.\n\n```javascript\nvar csv = require(\'csv\');\n\ncsv.generate({seed: 1, columns: 2, length: 20}, function(err, data){\n  csv.parse(data, function(err, data){\n    csv.transform(data, function(data){\n      return data.map(function(value){return value.toUpperCase()});\n    }, function(err, data){\n      csv.stringify(data, function(err, data){\n        process.stdout.write(data);\n      });\n    });\n  });\n});\n```\n\n### Stream example\n\nExecute this script with the command `node samples/stream.js`.\n\n```javascript\nvar csv = require(\'csv\');\n\nvar generator = csv.generate({seed: 1, columns: 2, length: 20});\nvar parser = csv.parse();\nvar transformer = csv.transform(function(data){\n  return data.map(function(value){return value.toUpperCase()});\n});\nvar stringifier = csv.stringify();\n\ngenerator.on(\'readable\', function(){\n  while(data = generator.read()){\n    parser.write(data);\n  }\n});\n\nparser.on(\'readable\', function(){\n  while(data = parser.read()){\n    transformer.write(data);\n  }\n});\n\ntransformer.on(\'readable\', function(){\n  while(data = transformer.read()){\n    stringifier.write(data);\n  }\n});\n\nstringifier.on(\'readable\', function(){\n  while(data = stringifier.read()){\n    process.stdout.write(data);\n  }\n});\n```\n\n### Pipe example\n\nExecute this script with the command `node samples/pipe.js`.\n\n```javascript\nvar csv = require(\'csv\');\n\ncsv.generate({seed: 1, columns: 2, length: 20})\n  .pipe(csv.parse())\n  .pipe(csv.transform(function(record){\n     return record.map(function(value){\n       return value.toUpperCase()\n     });\n  }))\n  .pipe(csv.stringify ())\n  .pipe(process.stdout);\n```\n\nDevelopment\n-----------\n\nThis parent project doesn\'t have tests itself but instead delegates the\ntests to its child projects.\n\nRead the documentation of the child projects for additional information.\n\nRelated projects\n----------------\n\n*   Pavel Kolesnikov "ya-csv": <http://github.com/koles/ya-csv>\n*   Chris Williams "node-csv": <http://github.com/voodootikigod/node-csv>\n\n[travis]: https://travis-ci.org/\n[travis-csv-generate]: http://travis-ci.org/wdavidw/node-csv-generate\n[travis-csv-parse]: http://travis-ci.org/wdavidw/node-csv-parse\n[travis-stream-transform]: http://travis-ci.org/wdavidw/node-stream-transform\n[travis-csv-stringify]: http://travis-ci.org/wdavidw/node-csv-stringify\n[new_doc]: http://csv.adaltas.com\n[old_doc]: http://csv.adaltas.com/legacy/\n',
+38 silly resolved     readmeFilename: 'README.md',
+38 silly resolved     _id: 'csv@1.1.0',
+38 silly resolved     _from: 'csv@' } ]
+39 info install csv@1.1.0 into D:\drupalonsteroids
+40 info installOne csv@1.1.0
+41 verbose from cache C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package\package.json
+42 info D:\drupalonsteroids\node_modules\csv unbuild
+43 verbose read json D:\drupalonsteroids\node_modules\csv\package.json
+44 verbose tar unpack C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
+45 silly lockFile 8db59fab-rupalonsteroids-node-modules-csv D:\drupalonsteroids\node_modules\csv
+46 verbose lock D:\drupalonsteroids\node_modules\csv C:\Users\Ramesh\AppData\Roaming\npm-cache\8db59fab-rupalonsteroids-node-modules-csv.lock
+47 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
+48 verbose lock C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\36cd6fdc--npm-cache-csv-1-1-0-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+54 silly gunzTarPerm extractEntry LICENSE
+55 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+56 silly gunzTarPerm extractEntry .travis.yml
+57 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+58 silly gunzTarPerm extractEntry doc/changes.md
+59 silly gunzTarPerm modified mode [ 'doc/changes.md', 438, 420 ]
+60 silly gunzTarPerm extractEntry doc/columns.md
+61 silly gunzTarPerm modified mode [ 'doc/columns.md', 438, 420 ]
+62 silly gunzTarPerm extractEntry doc/coverage.html
+63 silly gunzTarPerm modified mode [ 'doc/coverage.html', 438, 420 ]
+64 silly gunzTarPerm extractEntry doc/from.md
+65 silly gunzTarPerm modified mode [ 'doc/from.md', 438, 420 ]
+66 silly gunzTarPerm extractEntry doc/index.md
+67 silly gunzTarPerm modified mode [ 'doc/index.md', 438, 420 ]
+68 silly gunzTarPerm extractEntry doc/parser.md
+69 silly gunzTarPerm modified mode [ 'doc/parser.md', 438, 420 ]
+70 silly gunzTarPerm extractEntry doc/stringifier.md
+71 silly gunzTarPerm modified mode [ 'doc/stringifier.md', 438, 420 ]
+72 silly gunzTarPerm extractEntry doc/to.md
+73 silly gunzTarPerm modified mode [ 'doc/to.md', 438, 420 ]
+74 silly gunzTarPerm extractEntry doc/transformer.md
+75 silly gunzTarPerm modified mode [ 'doc/transformer.md', 438, 420 ]
+76 silly gunzTarPerm extractEntry lib/index.js
+77 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry Makefile
+79 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+80 silly gunzTarPerm extractEntry samples/callback.js
+81 silly gunzTarPerm modified mode [ 'samples/callback.js', 438, 420 ]
+82 silly gunzTarPerm extractEntry samples/pipe.js
+83 silly gunzTarPerm modified mode [ 'samples/pipe.js', 438, 420 ]
+84 silly gunzTarPerm extractEntry samples/stream.js
+85 silly gunzTarPerm modified mode [ 'samples/stream.js', 438, 420 ]
+86 silly gunzTarPerm extractEntry src/index.coffee.md
+87 silly gunzTarPerm modified mode [ 'src/index.coffee.md', 438, 420 ]
+88 verbose read json D:\drupalonsteroids\node_modules\csv\package.json
+89 silly lockFile 8db59fab-rupalonsteroids-node-modules-csv D:\drupalonsteroids\node_modules\csv
+90 silly lockFile 8db59fab-rupalonsteroids-node-modules-csv D:\drupalonsteroids\node_modules\csv
+91 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
+92 silly lockFile 36cd6fdc--npm-cache-csv-1-1-0-package-tgz C:\Users\Ramesh\AppData\Roaming\npm-cache\csv\1.1.0\package.tgz
+93 info preinstall csv@1.1.0
+94 verbose from cache D:\drupalonsteroids\node_modules\csv\package.json
+95 verbose readDependencies using package.json deps
+96 verbose from cache D:\drupalonsteroids\node_modules\csv\package.json
+97 verbose readDependencies using package.json deps
+98 verbose cache add [ 'csv-generate@^1.0.0', null ]
+99 verbose cache add name=undefined spec="csv-generate@^1.0.0" args=["csv-generate@^1.0.0",null]
+100 verbose parsed url { pathname: 'csv-generate@^1.0.0',
+100 verbose parsed url   path: 'csv-generate@^1.0.0',
+100 verbose parsed url   href: 'csv-generate@^1.0.0' }
+101 verbose cache add name="csv-generate" spec="^1.0.0" args=["csv-generate","^1.0.0"]
+102 verbose parsed url { pathname: '^1.0.0', path: '^1.0.0', href: '^1.0.0' }
+103 verbose addNamed [ 'csv-generate', '^1.0.0' ]
+104 verbose addNamed [ null, null ]
+105 silly lockFile 2ce8062f-csv-generate-1-0-0 csv-generate@^1.0.0
+106 verbose lock csv-generate@^1.0.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\2ce8062f-csv-generate-1-0-0.lock
+107 verbose cache add [ 'csv-parse@^1.1.0', null ]
+108 verbose cache add name=undefined spec="csv-parse@^1.1.0" args=["csv-parse@^1.1.0",null]
+109 verbose parsed url { pathname: 'csv-parse@^1.1.0',
+109 verbose parsed url   path: 'csv-parse@^1.1.0',
+109 verbose parsed url   href: 'csv-parse@^1.1.0' }
+110 verbose cache add name="csv-parse" spec="^1.1.0" args=["csv-parse","^1.1.0"]
+111 verbose parsed url { pathname: '^1.1.0', path: '^1.1.0', href: '^1.1.0' }
+112 verbose addNamed [ 'csv-parse', '^1.1.0' ]
+113 verbose addNamed [ null, null ]
+114 silly lockFile 103141e9-csv-parse-1-1-0 csv-parse@^1.1.0
+115 verbose lock csv-parse@^1.1.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\103141e9-csv-parse-1-1-0.lock
+116 verbose cache add [ 'stream-transform@^0.1.0', null ]
+117 verbose cache add name=undefined spec="stream-transform@^0.1.0" args=["stream-transform@^0.1.0",null]
+118 verbose parsed url { pathname: 'stream-transform@^0.1.0',
+118 verbose parsed url   path: 'stream-transform@^0.1.0',
+118 verbose parsed url   href: 'stream-transform@^0.1.0' }
+119 verbose cache add name="stream-transform" spec="^0.1.0" args=["stream-transform","^0.1.0"]
+120 verbose parsed url { pathname: '^0.1.0', path: '^0.1.0', href: '^0.1.0' }
+121 verbose addNamed [ 'stream-transform', '^0.1.0' ]
+122 verbose addNamed [ null, null ]
+123 silly lockFile 634305ca-stream-transform-0-1-0 stream-transform@^0.1.0
+124 verbose lock stream-transform@^0.1.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\634305ca-stream-transform-0-1-0.lock
+125 verbose cache add [ 'csv-stringify@^1.0.0', null ]
+126 verbose cache add name=undefined spec="csv-stringify@^1.0.0" args=["csv-stringify@^1.0.0",null]
+127 verbose parsed url { pathname: 'csv-stringify@^1.0.0',
+127 verbose parsed url   path: 'csv-stringify@^1.0.0',
+127 verbose parsed url   href: 'csv-stringify@^1.0.0' }
+128 verbose cache add name="csv-stringify" spec="^1.0.0" args=["csv-stringify","^1.0.0"]
+129 verbose parsed url { pathname: '^1.0.0', path: '^1.0.0', href: '^1.0.0' }
+130 verbose addNamed [ 'csv-stringify', '^1.0.0' ]
+131 verbose addNamed [ null, null ]
+132 silly lockFile feb13d96-csv-stringify-1-0-0 csv-stringify@^1.0.0
+133 verbose lock csv-stringify@^1.0.0 C:\Users\Ramesh\AppData\Roaming\npm-cache\feb13d96-csv-stringify-1-0-0.lock
+134 info addNameTag [ 'csv-generate', '^1.0.0' ]
+135 info addNameTag [ 'csv-parse', '^1.1.0' ]
+136 info addNameTag [ 'stream-transform', '^0.1.0' ]
+137 info addNameTag [ 'csv-stringify', '^1.0.0' ]
+138 verbose url raw csv-generate
+139 verbose url resolving [ 'https://registry.npmjs.org/', './csv-generate' ]
+140 verbose url resolved https://registry.npmjs.org/csv-generate
+141 info trying registry request attempt 1 at 15:41:59
+142 verbose etag "56152bb3-2b43"
+143 http GET https://registry.npmjs.org/csv-generate
+144 verbose url raw csv-parse
+145 verbose url resolving [ 'https://registry.npmjs.org/', './csv-parse' ]
+146 verbose url resolved https://registry.npmjs.org/csv-parse
+147 info trying registry request attempt 1 at 15:41:59
+148 verbose etag "579a0337-f343"
+149 http GET https://registry.npmjs.org/csv-parse
+150 verbose url raw stream-transform
+151 verbose url resolving [ 'https://registry.npmjs.org/', './stream-transform' ]
+152 verbose url resolved https://registry.npmjs.org/stream-transform
+153 info trying registry request attempt 1 at 15:41:59
+154 verbose etag "5626a6a6-2fa9"
+155 http GET https://registry.npmjs.org/stream-transform
+156 verbose url raw csv-stringify
+157 verbose url resolving [ 'https://registry.npmjs.org/', './csv-stringify' ]
+158 verbose url resolved https://registry.npmjs.org/csv-stringify
+159 info trying registry request attempt 1 at 15:41:59
+160 verbose etag "573394cc-42c4"
+161 http GET https://registry.npmjs.org/csv-stringify
+162 http 304 https://registry.npmjs.org/csv-generate
+163 silly registry.get cb [ 304,
+163 silly registry.get   { date: 'Wed, 23 Nov 2016 10:12:02 GMT',
+163 silly registry.get     via: '1.1 varnish',
+163 silly registry.get     'cache-control': 'max-age=300',
+163 silly registry.get     etag: '"56152bb3-2b43"',
+163 silly registry.get     age: '0',
+163 silly registry.get     connection: 'keep-alive',
+163 silly registry.get     'x-served-by': 'cache-sin6926-SIN',
+163 silly registry.get     'x-cache': 'MISS',
+163 silly registry.get     'x-cache-hits': '0',
+163 silly registry.get     'x-timer': 'S1479895922.149875,VS0,VE103',
+163 silly registry.get     vary: 'Accept-Encoding' } ]
+164 verbose etag csv-generate from cache
+165 silly lockFile 2ce8062f-csv-generate-1-0-0 csv-generate@^1.0.0
+166 silly lockFile 2ce8062f-csv-generate-1-0-0 csv-generate@^1.0.0
+167 verbose about to build D:\drupalonsteroids\node_modules\csv
+168 info D:\drupalonsteroids\node_modules\csv unbuild
+169 verbose from cache D:\drupalonsteroids\node_modules\csv\package.json
+170 info preuninstall csv@1.1.0
+171 info uninstall csv@1.1.0
+172 verbose true,D:\drupalonsteroids\node_modules,D:\drupalonsteroids\node_modules unbuild csv@1.1.0
+173 info postuninstall csv@1.1.0
+174 error Error: No compatible version found: csv-generate@'^1.0.0'
+174 error Valid install targets:
+174 error ["0.0.0","0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","1.0.0"]
+174 error     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:682:10)
+174 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:597:10
+174 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
+174 error     at Object.oncomplete (fs.js:297:15)
+175 error If you need help, you may report this log at:
+175 error     <http://github.com/isaacs/npm/issues>
+175 error or email it to:
+175 error     <npm-@googlegroups.com>
+176 error System Windows_NT 6.1.7601
+177 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "csv"
+178 error cwd D:\drupalonsteroids
+179 error node -v v0.8.22
+180 error npm -v 1.2.14
+181 verbose exit [ 1, true ]

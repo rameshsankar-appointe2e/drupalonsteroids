@@ -1,4 +1,4 @@
-title,description,labels
-Test 1,This is the test1 desc,bug
-Test 2,This is the test2 desc,question
-Test 3,This is the test3 desc,enhancement
+title,description,assignee_username,label1,label2,label3
+Test 1,This is the test1 desc,Ramesh,bug,feature,issue
+Test 2,This is the test2 desc,Rajesh,question,feature,issue
+Test 3,This is the test3 desc,Rajesh,question,feature,issue
